@@ -3,7 +3,6 @@ import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Projects from "@/components/sections/Projects";
 import Testimonials from "@/components/sections/Testimonials";
-import Founder from "@/components/sections/Founder";
 import Contact from "@/components/sections/Contact";
 
 const Index = () => {
@@ -17,7 +16,6 @@ const Index = () => {
         <About />
         <Projects />
         <Testimonials />
-        <Founder />
         <Contact />
       </main>
       

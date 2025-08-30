@@ -1,6 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
 import ecommerceImage from "@/assets/project-ecommerce.jpg";
 import chatbotImage from "@/assets/project-ai-chatbot.jpg";
 import analyticsImage from "@/assets/project-analytics.jpg";
@@ -79,10 +77,6 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <Button variant="outline" className="w-full group">
-                  View Case Study
-                  <ExternalLink className="w-4 h-4 ml-2 transition-smooth group-hover:translate-x-1" />
-                </Button>
               </CardContent>
             </Card>
           ))}
