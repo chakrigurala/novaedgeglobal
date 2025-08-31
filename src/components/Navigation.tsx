@@ -20,7 +20,6 @@ const Navigation = () => {
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Founder', href: '#founder' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -56,9 +55,6 @@ const Navigation = () => {
                 {item.name}
               </button>
             ))}
-            <Button variant="hero" size="sm">
-              Get Started
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -86,9 +82,6 @@ const Navigation = () => {
                   {item.name}
                 </button>
               ))}
-              <Button variant="hero" size="sm" className="w-full mt-4">
-                Get Started
-              </Button>
             </div>
           </div>
         )}

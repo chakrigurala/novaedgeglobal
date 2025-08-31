@@ -29,14 +29,6 @@ const Hero = () => {
             We deliver solutions that drive growth and redefine possibilities.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="hover-glow">
-              Start Your Project
-            </Button>
-            <Button variant="outline" size="lg" className="transition-smooth">
-              View Our Work
-            </Button>
-          </div>
         </div>
 
         {/* Scroll Indicator */}
